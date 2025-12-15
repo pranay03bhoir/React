@@ -1,13 +1,29 @@
 import "./App.css";
 
+function Welcome(name) {
+  return <h1>Hello {name}</h1>;
+}
+
+function greetings(isMorning) {
+  if (isMorning) {
+    return <h1>Good Morning</h1>;
+  } else {
+    return <h1>Good Morning</h1>;
+  }
+}
+
 function App() {
   const name = "Pranay";
   const buttonLabel = "Click Me";
   const welcome = "Welcome";
   const isLoggedIn = true;
+  const now = new Date();
+  const isMorning = now.getHours() < 12;
   return (
     <>
       <div>
+        {Welcome("manisha")}
+        {greetings(isMorning)}
         <h1>
           {isLoggedIn ? welcome : "Log in to your account"} {isLoggedIn && name}
         </h1>

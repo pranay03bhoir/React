@@ -11,19 +11,19 @@ function App() {
   const profession = "Full-Stack Developer";
   const projects = [
     {
-      title: "Project One",
+      title: "Note",
       description: "A Web app made for note taking.",
       techStack: "React,node.js,mongodb",
       link: "#projectone",
     },
     {
-      title: "Project Two",
+      title: "E-commerce",
       description: "A Ecommerce application.",
       techStack: "React,spring boot,postgresql",
       link: "#projecttwo",
     },
     {
-      title: "Project Three",
+      title: "HRMS",
       description: "Human Resource Management System(HRMS).",
       techStack: "React,spring boot,postgresql,redis,mongodb",
       link: "#projectthree",

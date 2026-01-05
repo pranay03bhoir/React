@@ -1,0 +1,265 @@
+:root {
+  --primary: #4a6bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f7ff;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.app-header h1 {
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--primary), #6c5ce7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: var(--secondary);
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.counters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.counter-card {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.counter-card h3 {
+  color: var(--dark);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.counter-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 1rem 0;
+  transition: transform 0.3s ease;
+}
+
+.counter-card:hover .counter-value {
+  transform: scale(1.1);
+}
+
+.counter-note {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-style: italic;
+}
+
+.input-section {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.input-section h3 {
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e1e5ee;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: var(--transition);
+  flex: 1;
+  max-width: 300px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(74, 107, 255, 0.2);
+}
+
+.input-field.focused {
+  animation: pulse 1.5s infinite;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-state {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-state:hover {
+  background-color: #3a5bff;
+  transform: translateY(-2px);
+}
+
+.btn-ref {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-ref:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.btn-focus {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-focus:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.hint {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  border-top: 1px solid #e1e5ee;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(74, 107, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(74, 107, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(74, 107, 255, 0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .counters-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .counter-card {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+}

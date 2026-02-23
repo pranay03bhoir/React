@@ -2,6 +2,10 @@ import "./App.css";
 import SearchBar from "./components/SearchBar.jsx";
 import Tabs from "./components/Tabs.jsx";
 import ResultGrid from "./components/ResultGrid.jsx";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage.jsx";
+import CollectionPage from "./pages/CollectionPage.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   //===================================================
@@ -23,9 +27,11 @@ function App() {
   return (
     <>
       <div className="bg-black w-full min-h-screen text-white">
-        <SearchBar />
-        <Tabs />
-        <ResultGrid />
+        <Navbar />
+        <Routes>
+          <Route path={`/`} element={<HomePage />} />
+          <Route path={`/collection`} element={<CollectionPage />} />
+        </Routes>
 
         {/* =============================================================== */}
         {/* <button

@@ -2,6 +2,7 @@ import axios from "axios";
 
 const UNSPLASH_KEY = import.meta.env.VITE_UNSPLASH_KEY;
 const PEXELS_KEY = import.meta.env.VITE_PEXELS_KEY;
+const KLIPY_KEY = import.meta.env.VITE_KLIPY_KEY;
 
 export async function fetchPhotos(query, page = 1, per_page = 20) {
   const photos = await axios.get("https://api.unsplash.com/search/photos", {
@@ -18,4 +19,12 @@ export async function fetchVideos(query, per_page = 15) {
   });
 
   return videos.data;
+}
+
+export async function fetchGIFs(query, limit = 12) {
+  // Klipy is a drop-in for Tenor: same path and params, only domain changes
+  const { data } = await axios.get("https://api.klipy.com/v2/search", {
+    params: { q: query, key: KLIPY_KEY, limit },
+  });
+  return data;
 }

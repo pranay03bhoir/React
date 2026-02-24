@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ba028d-2f83-4675-9995-9552cbd0116e" name="Changes" comment="Add `.idea/workspace.xml` to track WebStorm project settings.">
-      <change beforePath="$PROJECT_DIR$/../mediaSearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="88ba028d-2f83-4675-9995-9552cbd0116e" name="Changes" comment="Update README to include detailed project overview, features, tech stack, setup instructions, and API documentation." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,32 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.localhost:5173.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "wsl://Ubuntu@/home/pranay/.nvm/versions/node/v24.12.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu\\home\\pranay\\.nvm\\versions\\node\\v24.12.0\\lib\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\prana\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/pranay/.nvm/versions/node/v24.12.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl.localhost\\Ubuntu\\home\\pranay\\.nvm\\versions\\node\\v24.12.0\\lib\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\prana\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -87,10 +85,10 @@
   </component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1773234008055" />
-    <option name="spentUsd" value="0.108196005" />
+    <option name="spentUsd" value="0.1325015" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="6" />
+    <option name="suspendCountdown" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,7 +151,7 @@
       <workItem from="1771587513253" duration="5394000" />
       <workItem from="1771840428064" duration="100000" />
       <workItem from="1771840569264" duration="4826000" />
-      <workItem from="1771913049421" duration="6220000" />
+      <workItem from="1771913049421" duration="6879000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize React App with Vite: Set up a basic React project using Vite, added `.gitignore`, ESLint configuration, and project structure with initial styles and a sample component.">
       <option name="closed" value="true" />
@@ -195,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771918945916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update README to include detailed project overview, features, tech stack, setup instructions, and API documentation.">
+      <option name="closed" value="true" />
+      <created>1771919348546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771919348546</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update README to include detailed project overview, features, tech stack, setup instructions, and API documentation.">
+      <option name="closed" value="true" />
+      <created>1771919383881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771919383881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +222,8 @@
     <MESSAGE value="Rename project files and update structure: Renamed various project files for consistency and improved organization, including components, pages, and configuration files. Added new `modules.xml` for project module management." />
     <MESSAGE value="Migrate project files to `mediaSearch` folder for streamlined organization. Update references and project structure accordingly." />
     <MESSAGE value="Add `.idea/workspace.xml` to track WebStorm project settings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `.idea/workspace.xml` to track WebStorm project settings." />
+    <MESSAGE value="Update README to include detailed project overview, features, tech stack, setup instructions, and API documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README to include detailed project overview, features, tech stack, setup instructions, and API documentation." />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

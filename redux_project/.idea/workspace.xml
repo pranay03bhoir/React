@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88ba028d-2f83-4675-9995-9552cbd0116e" name="Changes" comment="Migrate project files to `mediaSearch` folder for streamlined organization. Update references and project structure accordingly.">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/public/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/mediaAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/api/mediaAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/assets/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CollectionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/CollectionCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResultCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/ResultCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResultGrid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/ResultGrid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/SearchBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/components/Tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CollectionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/pages/CollectionPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/features/collectionSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/redux/features/collectionSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/features/searchSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/redux/features/searchSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mediaSearch/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_//wsl.localhost/Ubuntu/home/pranay/WebstormProjects/React/redux_project" value="39qBhAeeW3j0tX6ppJOl3bAE9Jw" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d9e71e31-acba-4a2f-8c14-0327dd1133a3" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="39qBhAeeW3j0tX6ppJOl3bAE9Jw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/pranay/.nvm/versions/node/v24.12.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl.localhost\\Ubuntu\\home\\pranay\\.nvm\\versions\\node\\v24.12.0\\lib\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\prana\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1773234008055" />
+    <option name="spentUsd" value="0.108196005" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="6" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\pranay\WebstormProjects\React\redux_project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.localhost:5173">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88ba028d-2f83-4675-9995-9552cbd0116e" name="Changes" comment="" />
+      <created>1771413836983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771413836983</updated>
+      <workItem from="1771413838085" duration="1815000" />
+      <workItem from="1771415754517" duration="1614000" />
+      <workItem from="1771513206939" duration="30000" />
+      <workItem from="1771513288000" duration="389000" />
+      <workItem from="1771566683147" duration="110000" />
+      <workItem from="1771566932395" duration="72000" />
+      <workItem from="1771567035848" duration="390000" />
+      <workItem from="1771567692800" duration="3404000" />
+      <workItem from="1771587513253" duration="5394000" />
+      <workItem from="1771840428064" duration="100000" />
+      <workItem from="1771840569264" duration="4826000" />
+      <workItem from="1771913049421" duration="5737000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize React App with Vite: Set up a basic React project using Vite, added `.gitignore`, ESLint configuration, and project structure with initial styles and a sample component.">
+      <option name="closed" value="true" />
+      <created>1771413923186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771413923186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add routing, navbar, and collection page: Integrated React Router with `BrowserRouter`, created `Navbar` for navigation, added `CollectionPage`, and refactored `App` structure for routes. Enhanced `ResultCard` with save-to-collection functionality using localStorage. Updated styles and dependencies.">
+      <option name="closed" value="true" />
+      <created>1771845416791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771845416791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add collection management with Redux and toast notifications: Created `collectionSlice` for managing collection state in Redux. Updated `ResultCard` and `CollectionPage` to support adding/removing items with toast notifications using `react-toastify`. Introduced `CollectionCard` component for displaying saved items and integrated a clear-all feature. Updated dependencies and improved UI for better user interaction.">
+      <option name="closed" value="true" />
+      <created>1771918686030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771918686030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize React App with Vite: Set up a basic React project using Vite, added `.gitignore`, ESLint configuration, and project structure with initial styles and a sample component." />
+    <MESSAGE value="Add routing, navbar, and collection page: Integrated React Router with `BrowserRouter`, created `Navbar` for navigation, added `CollectionPage`, and refactored `App` structure for routes. Enhanced `ResultCard` with save-to-collection functionality using localStorage. Updated styles and dependencies." />
+    <MESSAGE value="Add collection management with Redux and toast notifications: Created `collectionSlice` for managing collection state in Redux. Updated `ResultCard` and `CollectionPage` to support adding/removing items with toast notifications using `react-toastify`. Introduced `CollectionCard` component for displaying saved items and integrated a clear-all feature. Updated dependencies and improved UI for better user interaction." />
+    <MESSAGE value="Rename project files and update structure: Renamed various project files for consistency and improved organization, including components, pages, and configuration files. Added new `modules.xml` for project module management." />
+    <MESSAGE value="Migrate project files to `mediaSearch` folder for streamlined organization. Update references and project structure accordingly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate project files to `mediaSearch` folder for streamlined organization. Update references and project structure accordingly." />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

@@ -1,11 +1,9 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar.jsx";
-import Tabs from "./components/Tabs.jsx";
-import ResultGrid from "./components/ResultGrid.jsx";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import CollectionPage from "./pages/CollectionPage.jsx";
 import Navbar from "./components/Navbar.jsx";
+import { ToastContainer, Zoom } from "react-toastify";
 
 function App() {
   //===================================================
@@ -32,7 +30,7 @@ function App() {
           <Route path={`/`} element={<HomePage />} />
           <Route path={`/collection`} element={<CollectionPage />} />
         </Routes>
-
+        <ToastContainer />
         {/* =============================================================== */}
         {/* <button
           className="border bg-amber-500 me-2 p-2 rounded-md"

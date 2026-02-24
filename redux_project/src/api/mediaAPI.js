@@ -21,7 +21,7 @@ export async function fetchVideos(query, per_page = 15) {
   return videos.data;
 }
 
-export async function fetchGIFs(query, limit = 12) {
+export async function fetchGIFs(query, limit = 20) {
   // Klipy is a drop-in for Tenor: same path and params, only domain changes
   const { data } = await axios.get("https://api.klipy.com/v2/search", {
     params: { q: query, key: KLIPY_KEY, limit },
